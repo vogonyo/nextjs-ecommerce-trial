@@ -76,14 +76,15 @@ export default function Layout({ children, categories }) {
         desktop:px-0
         border-solid
         border-t border-gray-300">
-          <span className="block text-gray-700 text-xs">Copyright © 2021 Multilab Systems. All rights reserved.</span>
+         <div className="block text-lg text-center w-5/6">For supplies contact us using <span className="font-semibold">multilabsltd@gmail.com</span> or call <span className="font-semibold">0724354865</span></div>
+          <span className="block text-gray-700 text-xs w-5/6">Copyright © 2021 Multilab Systems. All rights reserved.</span>
           <div className="
             sm:justify-end sm:m-0
             flex flex-1 mt-4
           ">
             <Link href="/admin">
               <a aria-label="Admin panel">
-              <p className="text-sm font-semibold">Admins</p>
+              <p className="text-sm font-semibold"></p>
               </a>
             </Link>
           </div>
